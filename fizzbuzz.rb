@@ -2,12 +2,12 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(number)
-  if number % 3 == 0 && number % 5 == 0
-    puts "Fizzbuzz"
+  if (number % 3 == 0) && (number % 5 == 0)
+    return "Fizzbuzz"
   elsif number % 3 == 0
-    puts "Fizz"
+    return "Fizz"
   elsif number % 5 == 0
-    puts "Buzz"
+    return "Buzz"
   else
     return nil
   end
